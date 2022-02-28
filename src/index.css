@@ -5,9 +5,281 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: gainsboro;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.section_1{
+  background: #478ECC;
+  height: auto;
+  width: 350px;
+}
+.avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-left: 75px;
+  margin-top: 14px;
+}
+.name{
+  color: #fff;
+  font-size: 34px;
+  margin-left: 50px;
+}
+.designa{
+  /* border-bottom: 2px solid #369BD6; */
+  margin-left: 55px;
+  color: #97C8EB;
+}
+.section{
+  background: #478ECC;
+  width: 350px;
+}
+.phone{
+  margin-left: 56px;
+  color: #fff;
+}
+small{
+  position: relative;
+  bottom: 18px;
+  margin-left: 56px;
+  color: rgba(255, 255, 255, 0.883);
+  font-size: 11px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.925);
+
+}
+.mail{
+  margin-left: 56px;
+  color: #fff;
+}
+.adresse{
+  margin-left: 56px;
+  color: #fff;
+}
+h4{
+  color: #fff;
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+.skill{
+  margin-left: 56px;
+  color: #fff
+}
+.language1{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language1::after{
+  content: '';
+  width: 200px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language2{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language2::after{
+  content: '';
+  width: 85px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language3{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language3::after{
+  content: '';
+  width: 200px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language4{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language4::after{
+  content: '';
+  width: 150px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language5{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language5::after{
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language6{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language6::after{
+  content: '';
+  width: 200px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.language7{
+  margin-left: 56px;
+  color: #fff;
+  font-size: 12px;
+}
+.language7::after{
+  content: '';
+  width: 100px;
+  height: 4px;
+  background: white;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(2px);
+}
+.page{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 1000px;
+}
+.section2{
+  background: #fff;
+  border-radius: 8px;
+  width: 500px;
+  height: 200px;
+
+}
+
+.section_droite{
+  position: relative;
+  right: 240px;
+}
+.about{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.text_about{
+  font-size: 15px;
+  margin-left: 60px;
+  width: 400px;
+  font-weight: lighter;
+  text-align: justify;
+}
+.section_work{
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 500px;
+}
+.titre_work{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+h5{
+  margin-left: 60px;
+  font-size: 8px;
+  font-weight: lighter;
+}
+h6{
+  font-size: small;
+  margin-left: 60px;
+  color: #478ECC;
+}
+.text_work{
+  font-size: 15px;
+  margin-left: 60px;
+  width: 400px;
+  font-weight: lighter;
+  text-align: justify;
+}
+.titre_edu{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.edu{
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 500px;
+  padding: 4px 0;
+}
+.ach{
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 500px;
+  padding: 4px 0;
+}
+.titre_ach{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.hobb{
+  position: relative;
+  bottom: 36px;
+}
+.icons{
+ color: #478ECC;
+  margin-left: 50px;
+  font-size: 30px;
+  position: relative;
+  bottom: 18px;
+}
+.titre_hobb{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.hobb{
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 500px;
+  padding: 4px 0;
+}
+.media{
+  margin-left: 60px;
+}
+.m_s{
+  color: #fff;
+}
+.m_s span{
+  color: #000;
+  font-weight: normal;
 }
